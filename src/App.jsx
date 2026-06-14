@@ -83,14 +83,14 @@ function App() {
         <div className="form">
           <input
             type="text"
-            placeholder="Enter Your Name"
+            placeholder="Enter Name"
             value={name}
             onChange={(e) => setName(e.target.value)}
           />
 
           <input
             type="text"
-            placeholder="Enter Your Email"
+            placeholder="Enter Email"
             value={email}
             onChange={(e) => setEmail(e.target.value)}
           />
