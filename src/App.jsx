@@ -36,6 +36,13 @@ function App() {
       return;
     }
 
+    const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+
+if (!emailRegex.test(email)) {
+  alert("Please enter a valid email address.");
+  return;
+}
+
     if (editingId !== null) {
       // Update existing user
       const updatedUsers = users.map((user) =>
