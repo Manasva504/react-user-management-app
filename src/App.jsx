@@ -89,7 +89,7 @@ function App() {
           />
 
           <input
-            type="text"
+            type="email"
             placeholder="Enter Email"
             value={email}
             onChange={(e) => setEmail(e.target.value)}
